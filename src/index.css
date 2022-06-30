@@ -1,13 +1,18 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700;800;900&display=swap');
+
+
+body{
+  font-family: 'Lexend Deca', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.trending{
+   background: linear-gradient(352.93deg, rgba(197, 255, 152, 0.2) 5.21%, rgba(67, 80, 105, 0.2) 46.18%);
+}
+.right{
+  background: linear-gradient(179.16deg, rgba(67, 80, 105, 0.2) 46.62%, rgba(255, 153, 121, 0.2) 98.3%);
+
 }
